@@ -1,0 +1,58 @@
+.content1 div {
+  display: flex;
+}
+
+.content1 img {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 15%;
+}
+
+.content1 section {
+  position: relative;
+}
+
+.content1 section h1 {
+  font-family: var(--font-title2);
+  flex-grow: 1;
+  padding-right: 20px;
+  padding-top: 20%;
+
+}
+
+.content1 h1 > span {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  font-size: 7rem;
+
+}
+
+.content1 section p {
+  position: absolute;
+  top: 50%;
+  left: -15%;
+
+  width: 65%;
+  aspect-ratio: 1/1;
+
+  padding: 20px;
+  background-color: var(--30);
+  border-radius: 25px;
+  overflow: scroll;
+
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+}
+
+.content1 h2 {
+  padding: 0 20px;
+  font-family: var(--font-normal);
+  font-size: 2rem;
+
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+
+}

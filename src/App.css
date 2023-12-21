@@ -1,0 +1,18 @@
+.App {
+  display: grid;
+  grid-template-columns: 80px auto;
+
+}
+
+aside {
+  border: 1px dashed lime;
+}
+
+main {
+  border: 1px dashed yellow;
+
+  height: 100dvh;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}

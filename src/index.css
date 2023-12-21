@@ -1,0 +1,23 @@
+:root {
+  --60: #27374D;
+  --30: #526D82;
+  --10: #DDE6ED;
+
+  --font-title1: 'Allura', cursive;
+  --font-normal: 'Thasadith', sans-serif;
+  --font-title2: 'Questrial', sans-serif;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background: var(--60);
+  color: var(--10);
+
+}
